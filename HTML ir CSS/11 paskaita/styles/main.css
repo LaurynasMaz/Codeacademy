@@ -1,0 +1,213 @@
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+body{
+  background-color: blue;
+}
+#Breakpoints{
+  display: flex;
+  justify-content: space-evenly;
+}
+#task1 h1{
+  text-align: center;
+}
+#task1 > div{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+#task1 > div > div{
+  height: 400px;
+  width: 200px;
+  border: 3px solid black;
+}
+.name2{
+  display: none;
+}
+
+.name3{
+  display: none;
+}
+#task4 h1{
+  text-align: center;
+}
+#task4{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#task4 .alignment1{
+  height: 400px;
+  width: 500px;
+  font-size: 15px;
+
+}
+#task4 :not([class]){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#task4 #pirmas1{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+#task4 #pirmas1 div:nth-child(1){
+  grid-area: 1 / 1 / 2 / 2;
+  color: white;
+  background-color: rgb(1, 1, 71);
+}
+#task4 #pirmas1 div:nth-child(2){
+  grid-area: 1 / 2 / 2 / 5;
+  background-color: #ff0000;
+  color: white;
+}
+#task4 #pirmas1 div:nth-child(3){
+  grid-area: 2 / 1 / 9 / 5;
+  color: white;
+  background-color: rgb(69, 69, 226);
+}
+#task4 #pirmas1 div:nth-child(4){
+  grid-area: 9 / 1 / 15 / 3; 
+  color: white;
+  background-color: rgb(32, 32, 116);
+}
+#task4 #pirmas1 div:nth-child(5){
+  grid-area: 9 / 3 / 15 / 4;
+  background-color: white;
+}
+#task4 #pirmas1 div:nth-child(6){
+  grid-area: 9 / 4 / 12 / 5; 
+  background-color: aqua;
+}
+#task4 #pirmas1 div:nth-child(7){
+  grid-area: 12 / 4 / 15 / 5; 
+  background-color: aquamarine;
+}
+#task4 #pirmas1 div:nth-child(8){
+ grid-area: 15 / 1 / 17 / 5;
+ background-color: yellow;
+}
+ @media (max-width: 1020px){
+  body{
+    background-color: aqua;
+  }
+  .name1{
+    display: none;
+    
+  }
+  .name2{
+    display: block;
+  }
+
+  .name3{
+    display: none;
+  }
+  
+  #task1 > div{
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  #task1 > div :nth-child(1){
+    height: 200px;
+    width: 400px;
+  }
+
+  #task1 > div :nth-child(2){
+    height: 200px;
+    width: 400px;
+  }
+
+  #task1 > div :nth-child(3){
+    grid-area: 1 / 2 / 3 / 3;
+    justify-self: start;
+    height: unset;
+  }
+  #task4 #pirmas1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  #task4 #pirmas1 div:nth-child(1){
+    grid-area: 1 / 1 / 2 / 5;
+    color: white;
+    background-color: rgb(1, 1, 71);
+  }
+  #task4 #pirmas1 div:nth-child(2){
+    grid-area: 4 / 1 / 9 / 2;
+    background-color: #ff0000;
+    color: white;
+  }
+  #task4 #pirmas1 div:nth-child(3){
+    grid-area: 2 / 1 / 4 / 5;
+    color: white;
+    background-color: rgb(69, 69, 226);
+  }
+  #task4 #pirmas1 div:nth-child(4){
+    grid-area: 4 / 2 / 6 / 5; 
+    color: white;
+    background-color: rgb(32, 32, 116);
+  }
+  #task4 #pirmas1 div:nth-child(6){
+    grid-area: 7 / 2 / 8 / 4; 
+    background-color: aqua;
+  }
+  #task4 #pirmas1 div:nth-child(7){
+    grid-area: 7 / 4 / 8 / 5; 
+    background-color: aquamarine;
+  }
+  #task4 #pirmas1 div:nth-child(8){
+   grid-area: 6 / 2 / 7 / 5;
+   background-color: yellow;
+ }
+}
+ @media (max-width: 678px){
+  body{
+    background-color: rgb(180, 116, 159);
+  }
+  .name1{
+    display: none;
+    
+  }
+  .name2{
+    display: none;
+  }
+
+  .name3{
+    display: block;
+  }
+  #task1 > div{
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  #task1 > div :nth-child(3){
+    height: 200px;
+    width: 400px;
+  }
+  #Breakpoints{
+    display: block;
+  }
+  #Breakpoints > div{
+    margin: 0 auto;
+    width: 80%;
+  }
+  #task4 #pirmas1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+  }
+  #task4 #pirmas1 div:nth-child(){
+    display: none;
+  }
+}

@@ -1,0 +1,134 @@
+.kvadratas1 {
+  height: 300px;
+  width: 300px;
+  border: 2px dashed black;
+  background-color: blueviolet;
+  margin-left: 200px; 
+}
+  .tranzicja {
+ /* transition-property: all;
+  transition-duration: 10s;
+  transition-timing-function: ease;
+  transition-delay: 0s;*/
+  transition: width 5s linear 0s, background-color 5s linear 5s;
+}
+.scale{
+  transform: scale(2, 0.5);
+}
+
+.rotate{
+  transform: rotate(90deg);
+}
+
+.translate{
+transform: translate3d(100px, 200px, 50px);
+}
+
+.skew{
+transform: skew(50deg, 20deg);
+}
+.transformation:hover{
+  /*transform: scale(0.5) translate(100px, 100px) rotate(20deg);
+  transform-origin: top left;*/
+  background-color: red; 
+  width: 800px;
+}
+.animacija1{
+  /*animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name:animacija1 ;*/
+  animation: 10s linear infinite animacija1;
+}
+
+@keyframes animacija1{
+0%{
+background-color: green;
+}
+30%{
+  width:  300px;
+  background-color: blue;
+}
+ 100% {
+background-color: brown;
+width:  800px;
+
+}
+}
+.tranzicja1:hover{
+  transition-duration: 5s;
+  background-color: rgb(7, 245, 38); 
+  color: blueviolet;
+}
+
+.animacija2{
+  animation: 5s linear infinite alternate animacija2;
+}
+
+@keyframes animacija2{
+  0%{
+    transform: translatey(0px);
+  }
+   100% {
+    transform: translatey(-20px);
+	}
+  }
+  .animacija3{
+    animation: 1s  infinite alternate animacija3;
+    transform-origin: bottom;
+  }
+  @keyframes animacija3{
+    0% { transform: skew(0deg, 0deg) scaleY(1);
+    transition: ease-in; }
+   50% { transform: skew(-5deg, 0deg);
+  transition: ease-out; }
+  100% { transform: skew(5deg, 0deg) scaleX(1); }
+}
+ .kvadratassmall{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+ }
+
+ .flexContainer{
+  height: 500px;
+  border: 5px solid black;
+  display: flex;
+  background-color: aquamarine;
+
+  /*flex-direction: row;
+  flex-wrap: wrap;*/
+  flex-flow: row wrap;
+  justify-content: center;
+ /* align-items: center;*/
+  align-content: center;
+  gap: 10px 30px;
+ }
+ .order1{
+  order: 1;
+ }
+
+ .order2{
+  order: 2;
+ }
+
+ /*.flexGrow1{
+  flex-grow: 1;
+ }
+
+ 
+ .flexGrow2{
+  flex-grow: 2
+  
+ }*/
+.alignSelf{
+align-self: flex-start ;
+}

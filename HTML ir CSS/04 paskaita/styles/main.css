@@ -1,0 +1,165 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+}
+
+[id]{
+  scroll-margin-top: 80px;
+}
+
+.boxModel{
+  /* Turinys */
+  display: block;
+  background-color: aquamarine;
+  font-size: 40px;
+  text-align: center;
+  line-height: 200px;
+  width: 500px;
+  height: 200px;
+  /* Pamušalas */
+  padding: 20px 50px 5px 0px;
+  /* padding-top: 100px;
+  padding-right: 1px; */
+  /* Border */
+  /* border: 10px dotted black; */
+  border-width: 10px 5px;
+  border-top-width: 20px;
+  border-style: double dashed;
+  border-left-style: solid;
+  border-color: black orange yellow;
+  border-bottom-color: blue;
+  border-radius: 100px 5px 10px 30px;
+  /* border-top-left-radius: 50% 50px; */
+  /* Margin */
+  margin: 100px auto;
+  /* Position */
+  position: relative;
+  right: 100px;
+}
+
+.boxModel:hover{
+  color: red;
+}
+
+#selectors li, #boxModel ol li{
+  list-style-type: square;
+}
+
+#background > div{
+  height: 50vh;
+}
+
+.fonas1{
+  background-color: antiquewhite;
+}
+.fonas2{
+  background-image: url('../images/fonas2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: -2;
+}
+.bg_op{
+background-color: rgba(250, 235, 215, 0.329);
+position: absolute;
+z-index: -1;
+width: 100%;
+height: 100%;
+}
+.fonas3{
+  position: relative;
+}
+.fonas3 img{
+position: absolute;
+z-index: -1;
+opacity: 0.7;
+width: 100%;
+height: 100%;
+}
+.fonas4{
+  background-image: url(../images/fonas3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fonas5{
+  background-image: linear-gradient(
+  to bottom right, 
+  red ,
+   yellow
+ );
+}
+.fonas6{
+  background-image: radial-gradient(
+    circle at top left,
+    red,
+    green,
+    yellow
+  );
+}
+.kortele{
+  width: 600px;
+  height: 300px;
+  border: 2px solid red;
+  padding: 25px;
+}
+
+.bgImage1{
+  background-image: url('../images/fonas1.jpg');
+  background-size: cover;
+}
+.infoBox{
+  opacity: 0;
+  background-color: #fffa;
+  box-sizing: border-box;
+  padding: 30px 10px;
+  height: 100%;
+  width: 50%;
+  transition: all 1s ease 0s;
+}
+.infoBox *{
+  padding: 0 0 30px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px #fa0;
+}
+.kortele:hover .infoBox{
+  opacity: 1;
+}
+header{
+  background-color: rgb(75, 97, 66);
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo, .mainMenu{
+  display: inline-block;
+}
+
+.logo img{
+  height: 80px;
+  width: auto;
+}
+
+.mainMenu{
+  float: right;
+}
+.mainMenu ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.mainMenu > ul > li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.link{
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 80px;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>06 Paskaita</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <main>
+    <section id="pseudoSelektoriai">
+      <h1>
+        <a href="https://www.w3schools.com/csSref/css_selectors.php" target="_blank">Psiaudo Selektoriai</a>
+      </h1>
+      <ul>
+<li>* </li>
+<li>element</li>
+<li>class</li>
+<li>#id</li>
+<li>selector1, selector2</li>
+<li>selector1 selector2</li>
+<li>selector1 > selector2</li>
+<li> element.class#id- elementas turinitis nurodytą klasę/es  ir arba nurodyta id</li>
+<li>selector1 + selector2 - iš karto selector1 einantis selector2 </li>
+<li>selector1 ~ selector2- už selector1 visi einatys selector2</li>
+<li>[attribute] - atribudas</li>
+<li>[attribute=value]- atribudas turintis nurodytą reikšmę</li>
+<li>[attribute~=value]- atribudas kurio reikšmėje yra nurodytas žodis</li>
+<li>[attribut*=value]- atribudas kurio reikšmėje yra nurodyto žodžio dalis</li>
+<li>[attribute|=value]- atribudas kurio reikšmė yra value arba value kažkas.</li>
+<li>[attribute^=value]- atribudas kurio reikšmė prasisdeda value ...</li>
+<li>[attribute$=value]- atribudas kurio reikšmė pasibaigia value</li>
+<li>:link- paprasta/nelankyta nuoroda</li>
+<li>:visited- lankyta nuoroda</li>
+<li>:hover- užėjės kursorius</li>
+<li>:active- aktyvi (paspaudimo momentu) nuoroda</li>
+<li>:element:empty- tusčias elementas (be content)</li>
+<li>::marker - sąrašo elemetų žymės</li>
+<li>::not(p) - neparenka nurodyto elemento</li>
+<li>:first-child - parenka pirmajį vaikinį elementą </li>
+<li>:last-child - parenka paskutinijį vaikinį elementą</li>
+<li>:only-child - parenka vienitelį vaikinį elementą(jeigu jis yra vienas)</li>
+<li>:first-of-type - parenka pirmajį nurodyto tipo elementą </li>
+<li>:last-of-type - parenka paskutinijį nurodyto tipo elementą</li>
+<li>:only-of-type  - parenka vienitelį nurodyto tipo elementą</li>
+<li>:nth-child(n) - parenka nurodytus vaikinį/us elementą/us</li>
+<li>:nth-last-child(n)parenka nuo galo nurodytus vaikinį/us elementą/us</li>
+<li>:nth-of-type(n)- parenka nurodytą/us elementą/us pagal tipą</li>
+<li>:nth-last-of-type(n)- parenka nuo galo nurodytą/us elementą/us pagal tipą</li>
+<li>marker - sąrašo elementų žymės </li>
+<li>::before - sukuria turinį prieš elementą</li>
+<li>::after - sukuria turinį už elementą</li>
+<li>input:checked - pažymetus/ parininktus radio/checkbox/select pasirinikimus</li>
+<li>input:default  - iš anksto parininktas pasirininkimas.</li>
+<li>input:disabled - inputas, kuris turi disabled atributą</li>
+<li>input:enabled - inputas, kuris neturi disabled atributo</li>
+<li>input:focus - inputas, ant kurio yra paspausta/fokusuota.</li>
+<li>input:in-range - inputas, kurio vertė yra nurodytose ribose.</li>
+<li>input:out-of-range - inputas, kurio vertė yra už norodytų ribų.</li>
+<li>input:inderterminate - inputas, kurio reikšmė neapibrėšta.</li>
+<li>input:invalid - inputas, kurio vertė netinkama</li>
+<li>input:valid - inputas, kurio vertė tinkama</li>
+<li>input:required - inputas, su required atributu.</li>
+<li>input:optional - inputas, ne required atributo.</li>
+<li>input:read-only - inputas, su read-only atributu.</li>
+<li>input:read-write - inputas, ne read-only atributo.</li>
+<li>input::placeholder - Įvesties laukelio placeholder atributo reikšmės parinkimas stilizavimui. </li>
+<li>element::first-letter - parenka elemento pirmają raidę</li>
+<li>element::first-line - parenka elemento pirmają eilutę</li>
+<li>:selection - parenka vartotojo pažymetą infomaciją.</li>
+<li>is()</li>
+<li>has()</li>
+<li>where()</li>
+      </ul>
+      <div class="selektoriuPVZ">
+      <p class="rytoTekstas" id="hallo"> Labas rytas</p>
+      <p>tekstas</p>
+      <h1>tekstas + tekstas</h1>
+      <p>tekstas + tekstas</p>
+      <h1 class="heading irdar">tekstas + tekstas2</h1>
+      <div>
+        <p></p>
+      </div>
+      <p>tekstas + tekstas + tekstas</p>
+      <p>tekstas + tekstas + tekstas2</p>
+      <p>tekstas + tekstas + tekstas3</p>
+      <p>tekstas + tekstas + tekstas2</p>
+      <h1>tekstas + tekstas2</h1>
+      <h1>tekstas + tekstas3</h1>
+<p>tekstas tekstas</p>
+    </div>
+    </section>
+    <section id="multimedija">
+      <h1>Multimedija</h1>
+      <p>Iframe - skirtas įkelti kitos svetainės dalį/turinį, arba visą svetainę į savo svetainę.</p>
+      <div id="video">
+        <!--<video controls>
+          <source src="" type="">
+          <source src="" type="">
+          <source src="" type="">
+        </video>
+        <video src="" controls></video>!-->
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E1ow8CFS3s0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div id="audio">
+        <audio controls>
+          <source src="" type="">
+          <source src="" type="">
+          <source src="" type="">
+        </audio>
+        <audio src="" controls></audio>
+      </div>
+      <div id="maps">
+        <map name="maps">JS prijungti</map>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9289.816406099513!2d24.021325647593788!3d54.40195667385916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1slt!2slt!4v1668415569603!5m2!1slt!2slt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div id="page">
+      <iframe src="https://www.lrs.lt/" height="400" width="500" frameborder="0"></iframe>
+    </div>
+    </section>
+    <table class="lenetele" border>
+  <tbody>
+    <tr>
+      <td>1</td>
+    <td>Sidnėjus</td>
+    <td>Australija</td>
+    <td>Nebuvau</td>
+    <td>Labas</td>
+      </tr>
+<tr>
+<td>2</td>
+<td>Sidnėjus</td>
+<td>Australija</td>
+<td>Nebuvau</td>
+<td>Labas</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Sidnėjus</td>
+<td>Australija</td>
+<td>Nebuvau</td>
+<td>Labas</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Rio de Žaneiras</td>
+  <td>Brazilija</td>
+  <td>Nebuvau</td>
+  <td>Labas</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Sidnėjus</td>
+    <td>Australija</td>
+    <td>Nebuvau</td>
+    <td>Labas</td>
+    </tr>
+  </tbody>
+  <tfoot>
+</tr>
+  </tfoot>
+</table>
+  </main>
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 300px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+.logo img{
+  height: 80px;
+  width: auto;
+  margin: 10px;
+}
+.navbar {
+  height: 100px;
+  display: flex;
+  background-color: rgb(9, 255, 0);
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: center;
+  margin-right: 50px;
+  text-decoration: none;
+ }
+ .link{
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+.flexContainer{
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 150;
+  text-align: justify;
+}
+.paveiksliukas{
+  width: 300px;
+  height: 200px;
+  float: left;
+}

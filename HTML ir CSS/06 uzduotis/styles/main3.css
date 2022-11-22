@@ -1,0 +1,82 @@
+body{
+  background-color: #1f2739;
+  text-align: center;
+  padding: 100px;
+}
+
+header{
+  text-align: center;
+  color: yellow;
+}
+
+.logoTekstas{
+  color: rgb(7, 164, 255);
+}
+  .klase{
+    color: red;
+  }
+
+.logo{
+  text-align: center;
+  display: block;
+  background-image: url(../images/Premier_League_Logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 700px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+}
+.lentele{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  color: rgb(141, 141, 141);
+  border-color: rgba(127, 255, 212, 0);
+  
+}
+
+.P{
+  display: inline-block;
+  background-color: green;
+  border-radius: 5px;
+  text-align: center;
+  width: 25px;
+  line-height: 25px;
+  color: white;
+  margin: 2px;
+}
+.L{
+  display: inline-block;
+  background-color: rgb(230, 230, 31);
+  border-radius: 5px;
+  text-align: center;
+  width: 25px;
+  line-height: 25px;
+  color: white;
+  margin: 2px;
+}
+.Pr{
+  display: inline-block;
+  background-color: red;
+  border-radius: 5px;
+  text-align: center;
+  width: 25px;
+  line-height: 25px;
+  color: white;
+  margin: 2px;
+}
+.lentele tr:nth-child(2n){background-color: #f2f2f234;
+}
+.lentele tr:nth-child(2n+1) {
+  background-color: #323c50;
+}
+.lentele tr td:first-of-type{
+  color: rgb(145, 44, 19);
+}
+.lentele th:nth-child(n){
+  background-color: #1f2739;
+  color: rgba(255, 255, 255, 0.767);
+}

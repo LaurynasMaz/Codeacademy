@@ -1,0 +1,48 @@
+ #uzduotis {
+    min-width: 768px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #183447;
+    display: flex;
+    column-gap: 10px;
+    color: white;
+  }
+  
+  #uzduotis .textContaineris{
+    flex: 3;
+    box-sizing: border-box;
+    padding: 50px;
+  }
+  
+  #uzduotis p{
+    margin: 0;
+    font-weight: 100;
+    color: rgb(119, 117, 117);
+  }
+  
+  #uzduotis .textContaineris h1{
+    color: #2eb98d;
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+  #uzduotis .textContaineris h1::first-line{
+    line-height: 100px;
+  }
+  
+  #uzduotis .speakerCardContaineris{
+    flex: 2;
+  }
+  #uzduotis.speakerCardContaineris {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+  }
+  #uzduotis .speakerCardContaineris img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  #uzduotis .speakerCardContaineris h3{
+    margin: 10px 0 0;
+  }

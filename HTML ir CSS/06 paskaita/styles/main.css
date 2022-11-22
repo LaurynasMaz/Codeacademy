@@ -1,0 +1,79 @@
+p.rytoTekstas#hallo{
+ font-weight: bold;
+}
+
+p + p {
+  color: red;
+}
+
+h1.heading ~ *{
+background-color: aqua;
+}
+
+[href]{
+  color: rgb(252, 247, 0);
+}
+
+[class*=head]{
+  color: blue;
+}
+
+a:link{
+  background-color: brown;
+}
+a:visited{
+  background-color: blueviolet;
+}
+a:hover{
+  background-color: forestgreen;
+}
+
+a:active{
+  background-color: black;
+}
+p:empty{
+  background-color: blueviolet;
+  height: 10px;
+}
+
+li::marker{
+  color: orange;
+}
+
+li{
+color: rgb(49, 0, 0);
+}
+div :not(div){
+  background-color: bisque;
+}
+
+.selektoriuPVZ :nth-child(5n){
+color: rgb(146, 148, 151);
+}
+.lenetele tr td:first-of-type{
+  color: blue;
+}
+
+.lenetele tr td:last-of-type{
+  color: blue;
+}
+
+.lenetele tr:first-of-type{
+  background-color: blueviolet;
+}
+.lenetele tr:nth-child(3n){
+  background-color: red;
+}
+.lenetele tr:nth-child(5n){
+  background-color: red;
+}
+li::before{
+  content: ":)";
+  color: black;
+  font-size: 30px;
+}
+li::after{
+  content: ":)";
+  color: black;
+  font-size: 30px;
+}

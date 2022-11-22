@@ -1,0 +1,115 @@
+<section id="task3">
+<main>
+    <aside class="aside-container-task3">
+
+    </aside>
+    <form class="form-container-task3" action="">
+        <h1>Yay, puppies! Ensure your pup gets the best care!</h1>
+
+        <div class="form-element-container-task3">
+            <!-- Left column -->
+            <div class="column-task3">
+                <div class="make-column-task3">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Pet's name">
+                </div>
+                <div class="make-column-task3">
+                    <label for="">Breed</label>
+                    <input type="text" placeholder="Pet's breed">
+                </div>
+            </div>
+            <!-- Right column -->
+            <div class="column-task3">
+                <div class="upload-photo-container-task3">
+                    <div class="camera-icon-container-task3">
+                        <img src="https://assets.stickpng.com/images/584abf102912007028bd9332.png" alt="">
+                    </div>
+                    <label for="">Upload a photo</label>
+                </div>
+                <div class="make-column-task3">
+                    <label for="">Breed</label>
+                    <input type="text" placeholder="Pet's breed">
+                </div>
+            </div>
+        </div>
+
+    </form>
+</main>
+#task3 main{
+  width: 50rem;
+  height: 35rem;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  padding: 0;
+  gap: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:root{
+  --task3-primary-color: #807182;
+  --task3-secondary-color: #f9c7c2;
+  --task3-third-color: #e5e5e5;
+}
+
+/* Aside */
+.aside-container-task3{
+  height: 100%;
+  background-color: var(--task3-primary-color);
+  width: 70%;
+}
+
+/* Form */
+.form-container-task3{
+  height: 100%;
+  width: 100%;
+  background-color: var(--task3-secondary-color);
+  padding: 2rem;
+}
+.form-element-container-task3{
+  display: flex;
+  justify-content: space-between;
+}
+/* Global styling */
+.form-container-task3 input{
+  width: 11rem;
+  height: 2.5rem;
+  border-radius: 5%;
+  border: 1px solid var(--task3-third-color);
+}
+.form-container-task3 input::placeholder{
+  padding-left: 0.3rem;
+}
+.make-column-task3{
+  display: flex;
+  flex-direction: column;
+}
+.column-task3{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Upload photo */
+.upload-photo-container-task3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.camera-icon-container-task3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--task3-third-color);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+}
+.camera-icon-container-task3 img{
+  width: 1.5rem;
+  height: 1.5rem;
+}

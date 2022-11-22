@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forma</title>
+</head>
+<h1>Forma</h1>
+<body>
+  <form id="formosUzduotis">
+  <div>
+    <label for="slapyvardis">Vardas:</label>
+    <input type="text" id="slapyvardis" name="slapyvardis" required>
+</div>
+<label for="email"> El. Paštas:</label>
+
+<input type="email" id="email"  required>
+<div>
+    <label for="pass">Slaptažodis:</label>
+    <input type="password" id="pass" name="password"
+           minlength="5" required>
+</div>
+<span>Pasirinkite lytį: </span>
+<div>
+  <input type="radio" id="vyras" name="lytis" >
+  <label for="lytis">Vyras</label>
+</div>
+
+<div>
+  <input type="radio" id="moteris" name="lytis">
+  <label for="lytis">Moteris</label>
+</div>
+<div>
+  <textarea name="komentaras" id="komentaras" cols="30" rows="5" placeholder="Palikite savo komentarą..."></textarea>
+</div>
+
+<button role="submit">Pateikti</button>
+</form>
+
+<script>
+  document.querySelector('#formosUzduotis').addEventListener('sumbit',(event) => {
+  event.preventDefault();
+  console.log(event);
+  });
+</script>
+</body>
+</html>

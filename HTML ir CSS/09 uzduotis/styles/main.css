@@ -1,0 +1,43 @@
+.gridUzduotis{
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  grid-template:  repeat(2, 380px) / repeat(2, 380px);
+}
+
+.gridUzduotis img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.gridUzduotis .cardContaineris{
+  display: grid;
+  grid-template-columns: 50px 50px ;
+  grid-template-rows: 50px 50px;
+}
+.gridUzduotis .fonas{
+  background-color: rgba(255, 255, 255, 0.623);
+  width: 300px;
+  height: 300px;
+}
+.gridUzduotis .fonas p{
+  color: rgb(75, 75, 75);}
+
+
+.gridUzduotis .overlaykaire{
+  grid-row: 2 / 4;
+  grid-column: 1 / 3;
+}
+.gridUzduotis .fonaskaire{
+  grid-column: 2 / 4;
+}
+
+.gridUzduotis .overlaydesine{
+  grid-row: 2 / 4;
+  grid-column: 2 / 4;
+}
+.gridUzduotis .fonasdesine{
+  grid-column: 1 / 3;
+}

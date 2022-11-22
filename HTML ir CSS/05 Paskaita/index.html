@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>05 Paskaita</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <main>
+  <section id="vaikinisTevinis">
+    <h1>Vaikinis / Tėvinis elementaS</h1>
+    <P>
+      Tėvinis elementas, gali turėti daugelį vaikinių elementų.
+      Vaikinis elementas, gali turėti tik vieną tėvinį elementą.
+    </P>
+  </section>
+  <section id="paveldejimas">
+    <h1>Paveldėjimas</h1>
+    <p>
+     Paveldėti stilius, gali tik vaikinis elementas iš tėvinio elemento.<br>
+     Paveldimi stiliai yra tie kurie keičia elemento išvaizdą, ne būseną. 
+     PVZ : color, font-size, font-family...<br>
+     Nepaveldimi stiliai yra tie, kurie keičia elemnto būseną. PVZ: width, height, display, border, pasition...<br>
+     Net paveldėti stiliai, gali nebūti atvaizduojami dėl stilių prioritetų.
+     <ul>
+      <li>aaa</li>
+      <li>aaa</li>
+      <li>aaa
+        <ul>
+          <li>aaa</li>
+          <li>aaa</li>
+          <li>aaa</li>
+        </ul>
+      </li>
+      <li>aaa</li>
+     </ul>
+    </p>
+  </section>
+  <section id="defaultsStyles">
+    <h1>Numatytieji stiliai</h1>
+    <h2>Numatytieji stiliai</h2>
+    <h3>Numatytieji stiliai</h3>
+    <p>
+      Numatietiji stiliai yra automatiškai naršyklės suteikti stiliai. Tarp skirtingų naršyklių numatytieji stiliai gali minimalistiškai keistis ir šitaip sugadinti sveteinės vaizdą skirtingų naršyklių vartotojams.<br>
+      Tam, kad nebūtų problemų kuriant dizianą skirtingoms naršyklėms, yra naudojimi Reset arba Nomalize CSSai.<br>
+      Normalize - suvienodina visus stilius tarp naršyklių ir panaikina dalį kenkėjiškų stilių.<br>
+    </p>
+  </section>
+  <section id="priorities">
+    <h1>CSS Prioritetai</h1>
+    <ol>
+<li>Inline stilius - 1000</li>
+<li>ID- 100</li>
+<li>Class - 10</li>
+<li>Element - 1</li>
+<li>CSS poins</li>
+<li>CSS Order(in CSS code)</li>
+<li>Inheritence</li>
+<a href="https://www.google.lt">Google</a>
+    </ol>
+    <p class="redText">
+      Esant dviem slektoriam, kurie nusako to paties elemnto voenodus stilius, yra atsižvelgiama į tų selektorių prioritetus. Aukščiau esantys prioritetai, turi aukštesnį prioritetą.<br>
+      Esant dviem vienodo priereitetų balo selektoriams, kiečiant tą patį elemento stilių, yra atsižvelgiama į CSS eliškumą. Kuris CSS stilius aprašytas vėliau, tas ir bus naudojamas.
+    </p>
+    <p>
+    <span class="veryIportant">Jeigu įmanomą - nenaudoti !!!</span>!important prierašas ignoruoja visus prioritetus ir suteikia tą stilių, apart kito !important prierašo, kuris turi aukštesnį prioritetą.
+  </p>
+  </section>
+  <section id="gooleFonts">
+    <a href="https://fonts.google.com" target="_blank">Google Fonts</a>
+<p>Norėdamas panaudoti kažkoki importuotą šfitą, turi jį surasti Google Fonts puslaptyje, pasirinkti norimą šiftą  ir jo stilius, prisijungti pateiktą kodą prie savo kado (import/link) ir tuomet jį naudoti.</p>
+  </section>
+  <section id="icons"></section>
+  <h1>Icons</h1>
+  <p>
+    Ikona yra mažas paveiksliukas.<br>
+    Tam kad į puslapį ikelti iconas, reikia naudoti i arba span tagą, nes iconos neturi joim prisikirto tago.<br>
+    Iconos stilizuojamas kaip tekstas. Nepriskiariame width/height, priskiariame font-size. Nepriskiriame backgraund-color, prisikiriame color...
+  </p>
+  <h2>Fonnt-Awesome</h2>
+<a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">Bibilioteka</a>
+<i class="fa fa-500px"></i>
+<span class="fa fa-500px"></span>
+<span class="fa">&#xf2b9;</span>
+  <h2>GkyphIcons (BootStrap)</h2>
+  <a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">Bibilioteka</a>
+  <i class="glyphicon glyphicon-adjust"></i>
+<span class="glyphicon glyphicon-alert"></span>
+<span class="glyphicon glyphicon">&#xe055;</span>
+<i class="bi bi-instagram"></i>
+
+  <h2>Google Icons</h2>
+  <a href="https://fonts.googleapis.com/icon?family=Material+Icons">Bibilioteka</a>
+  <i class="material-icons">3d_rotation</i>
+<span class="material-icons">ac_unit</span>
+<span class="material-icons">	&#xe190;</span>
+</main>
+</body>
+</html>

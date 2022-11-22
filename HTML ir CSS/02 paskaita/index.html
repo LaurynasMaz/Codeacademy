@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>02 Paskaita - HTML Įvadas</title>
+  <link rel="icon" href="./images/617-6173786_small-icon-png-search-icon-svg-transparent-png.png" >
+</head>
+<body>
+  <div> <!--Stilizavimo tagai-->
+  <h1>Syilizavimo tag`ai</h1>  
+  <ul>
+    <li>b - bold - pastorina tekstą</li>
+    <li> strong - pastorina tekstą</li>
+    <li>i - italic - Suteikia teikstui pasvirimo stilių</li>
+    <li> em - emphasize - Suteikia teikstui pasvirimo stilių</li>
+    <li> small - mažina teksto dydį</li>
+    <li>big - didina teksto dydį - nenaudojamas</li>
+    <li>sup - super - pakelia tekstą i viršų ir jį sumažina</li>
+    <li>sub - subscript - nuleidžia tekstą i apačią ir jį sumažina</li>
+    <li>span - Išskiria kažkokį elementą ar jo dalį</li>
+  </ul>
+  <center>
+  <p>
+  <sup>Lorem</sup> <sub>Lorem</sub> Lorem <b>ipsum</b> <strong>dotor</strong> sit <i>amet</i> <em>consectetur</em> <big>adipisicing </big> <small> elit.</small> Vel, optio.<spand>Laudantium </spand> dolores cum nostrum molestias, delectus aut quasi adipisci optio reiciendis quaerat, voluptate accusantium sit voluptatum, iusto temporibus commodi deserunt distinctio eum recusandae sapiente? Provident cum esse explicabo necessitatibus, doloribus alias unde delectus eveniet quam sequi, quas repellat quia in.
+  </p>
+</center>
+  </div>
+  <div><!--Lentelės-->
+<h1>Lentelės</h1>
+<ul>
+  <li> Table - lentelė </li>
+  <li>thead- table head - lentelės viršus</li>
+  <li>tbody - table body - lentelės kūnas</li>
+  <li>tfoot table foot - lentelės apačia
+    <li>tr - table row - lentelės eilutė</li>
+    <li>th - table heading- lentelės antraštė</li>
+<li>td - table data - lentelės domuo</li>
+<li>caption - lentelės pavadinimas</li>
+  </li>
+</ul>
+<table border>
+  <thead>
+    <tr>
+<th>Vardas</th>
+<th>Amžius</th>
+<th>Ūgis</th>
+<th> Plaukų Spalva</th>
+<th>Akių Spalva</th>
+</tr>
+  </thead>
+    <tbody>
+<tr>
+<td>Laurynas</td>
+<td>26</td>
+<td>184</td>
+<td>Geltona</td>
+<td>Melyna</td>
+</tr>
+<tr>
+  <td>Laurynas</td>
+  <td>26</td>
+  <td>184</td>
+  <td>Geltona</td>
+  <td>Melyna</td>
+  </tr>
+  <tr>
+    <td>Laurynas</td>
+    <td>26</td>
+    <td>184</td>
+    <td>Geltona</td>
+    <td>Melyna</td>
+    </tr>
+
+    </tbody>
+  <tfoot>
+<tr>
+  <td>3</td>
+  <td>26</td>
+  <td>184</td>
+</tr>
+  </tfoot>
+</table>
+  </div>
+  <div><!--Formos-->
+    <h1>Formos</h1>
+    <h3>Tagai</h3>
+    <ul>
+      <li>Form - Forma</li>
+      <li>input- Įvestis</li>
+      <li>select - pasirinkimas iš variantų</li>
+      <li>option - pasirinkimo variantai</li>
+      <li>textearea - didelio teksto kiekio įvestis</li>
+      <li>label - etiketė prie įvesties</li>
+      <li>optgroup- parisirinkimo variantų grupė</li>
+      <li>button - mygtukas</li>
+      <li>fieldset - formos laukas</li>
+      <li>legend - formos lauko pavadinimas</li>
+    </ul>
+    <h3>atributai</h3>
+    <ul>
+      <li>type - input tago tipas</li>
+      <li>fpr - nuropdo kuriam įvesties laukui yra prisikirta etiketė</li>
+      <li>id - unikalus pavadinimas, į kurį nurodo for atributas</li>
+      <li>name - įvesties lauko vardas, kuris bus perduotas backui kartu su tos įvesties reikšme </li>
+      <li>cols- stulpelių kiekis textarea ekemente</li>
+      <li>rows- eilučių kiekis textarea ekemente</li>
+      <li>palceholder - trkstas esantis įvesties lauke kuris pradingsta pradedant vesti į įvesties lauką </li>
+      <li>value- įvesties reikšmė perduodama i backą</li>
+      <li>label - prisikiria call gourpui pavadinimą</li>
+      <li>minlenght - minimalus ilgis</li>
+      <li>maxlenght - didžiausia įvestis</li>
+      <li>min - max - mažiausia ir didžiausia skaičiam</li>
+      <li>step - žingsnins kuriuo didėja arba mažėja skaičius</li>
+      <li>pattern - įvesties formantas nurodytas rigex</li>
+      <li>checked - numatytasis radio arba checkboxo pasirinimimas</li>
+
+    </ul>
+    
+    <form>
+      <div>
+        <input type = "text">
+      </div>
+      <label for="" >Pavarde</label>
+      <input type = "text">
+      <div>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <select name="" id="">
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

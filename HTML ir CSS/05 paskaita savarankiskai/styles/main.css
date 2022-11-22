@@ -1,0 +1,130 @@
+@import url('https://necolas.github.io/normalize.css/latest/normalize.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+html{
+  scroll-behavior: smooth;
+}
+header{
+  background-color: rgb(76, 247, 9);
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+h1{
+  text-align: center;
+}
+
+.logo, .mainMenu{
+  display: inline-block;
+}
+
+.logo img{
+  height: 80px;
+  width: auto;
+}
+
+.mainMenu{
+  float: right;
+}
+.mainMenu ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.mainMenu > ul > li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.link{
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 80px;
+}
+body{
+  margin: 0;
+  
+}
+body p{
+  text-align: justify;
+}
+
+[id]{
+  scroll-margin-top: 80px;
+}
+.alytus{
+  background-image: url('../images/Alytus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh
+}
+.korteles{
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+.kortele{
+  width: 600px;
+  height: 300px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 25px;
+  position: relative;
+  display: flex;
+
+}
+
+.bgImage1{
+  background-image: url('../images/Lithuania_Punia_Margiris_Pilikalnis.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.infoBox{
+  opacity: 0;
+  background-color: #fffa;
+  box-sizing: border-box;
+  padding: 30px 10px;
+  height: 100%;
+  width: 100%;
+  transition: all 1s ease 0s;
+}
+.infoBox *{
+  padding: 0 0 30px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 1px 1px 2px;
+}
+.kortele:hover .infoBox{
+  opacity: 1;
+}
+.bgImage2{
+  background-image: url('../images/wikipedia.org__1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.alytus2{
+  background-image: url('../images/Alytus_2020.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  width: 100vh;
+}
+.Duomenys{
+  display: flex;
+  justify-content: center;
+}
+
+.Susisiekite{
+text-align: center;
+}
+
+.siteFooter {
+  background: orange;
+  text-align: center;
+}
+
+#footerContent {
+  background: red;
+}

@@ -1,0 +1,115 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap");
+
+section{
+  background-color: rgb(245, 140, 3);
+  margin: 30px 0;
+}
+.formContainer{
+  margin: 0 auto;
+  width: 60%;
+  background-color: #fff;
+  padding: 30px 25px;
+  border: 1px solid black;
+}
+
+.formContainer h1{
+  margin-top: 0;
+}
+
+.twoInputs > div{
+  display: inline-block;
+  width: 48%;
+}
+.twoInputs > div:first-child{
+  margin-right: 4%;
+}
+
+#task1 label{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 2px;
+  font-size: 14px;
+}
+#task1 input, #task1 textarea{
+  display: block;
+  width: calc(100% - 10px);
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px #c2c2c2 solid;
+}
+#task1 textarea{
+  height: 100px;
+}
+
+#task1 input[type=submit]{
+  display: inline-block;
+  width: unset;
+  padding: 10px;
+  background-color: #61bc61;
+  border-radius: 5px;
+  color: white;
+}
+
+#task2 .container2 {
+  background-color: darkslategrey;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+#task2 .container2 h1, .container p{
+  margin: 0;
+}
+
+
+#task2 input:read-only {
+  background-color: darkgrey;
+}
+
+#task2 input:valid,
+#task2 textarea:valid,
+#task2 input:in-range {
+  border: solid green;
+}
+
+#task2 input:invalid,
+#task2 textarea:invalid,
+#task2 input:out-of-range {
+  border:  solid red;
+}
+
+#task2 input:required,
+#task2 textarea:required {
+  border-left: solid  pink;
+}
+
+#task2 .required {
+  background-color: pink;
+}
+
+#task2 .submitButton {
+  background-color: green;
+  color: white;
+}
+
+#task2 .submitButton:hover {
+  background-color: darkgreen;
+}
+
+#task2 input[type="checkbox"]:checked + label {
+  color: chocolate;
+}
+
+.customRadios{
+  margin-left: 30px;
+}
+
+.customRadios input{
+  display: none;
+}
+
+.customRadios input:checked + label{
+  color: #61bc61;
+}

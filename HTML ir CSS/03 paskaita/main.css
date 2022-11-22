@@ -1,0 +1,127 @@
+body{
+  height: 600vh;
+}
+
+h2{
+  color: red;
+  letter-spacing: 5px;
+}
+
+.svarbusTekstas{
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.raudonasTekstas{
+  color: red;
+}
+
+#remeliai{
+  border: 3px dashed lightcyan;
+}
+
+#melynasTekstas{
+  color: blue;
+}
+
+.kvadratas{
+  width: 150px;
+  height: 150px;
+  background-color: beige;
+  border: 2px solid black;
+  font-size: 30px;
+  text-align: center;
+  line-height: 150px;
+}
+.linijinis{
+  display: inline;
+}
+.blokinis{
+  display: block;
+}
+.linijinisBlokinis{
+  display: inline-block;
+}
+
+.wrap{
+  border: 1px solid rgb(0, 0, 0);
+}
+.display_ib{
+  display: inline-block;
+}
+.noTextSize{
+  font-size: 0;
+}
+.w400{
+  width: 400px;
+}
+.w133{
+  width: 133px;
+}
+.h500{
+  height: 500px;
+}
+.h300{
+  height: 300px;
+}
+.h100{
+  height: 100px;
+}
+.bg{
+  background-color: rgb(192, 201, 255);
+}
+.yellowBg{
+  background-color: yellow;
+}
+.greenBg{
+  background-color: green;
+}
+.redBg{
+  background-color: red;
+}
+.whiteBg{
+  background-color: #fff;
+}
+.LT_flag_linear_gradient{
+  background-image: linear-gradient(
+    to bottom,
+    yellow 33%,
+    green 33% 66%,
+    red 66%
+  );
+}
+
+.t10{
+  top: 10px;
+}
+.r30{
+  right: 30px;
+}
+.b50{
+  bottom: 50px;
+}
+.l80{
+  left: 80px;
+}
+.z5{
+  z-index: 5;
+}
+.z10{
+  z-index: 10;
+}
+.static{
+  position: static;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.fixed{
+  position: fixed;
+}
+.sticky{
+  position: sticky;
+}
