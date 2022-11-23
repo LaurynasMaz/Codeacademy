@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+  --color-main: #645cff;
+
+  --padding_1: 0.5rem;
+  --padding_2: 1rem;
+  --padding_3: 1.5rem;
+  --padding_4: 2rem;
+
+  --gap: 1rem;
+  --gap: 2rem;
+
+  --font-main: 'Roboto', sans-serif;
+  
+}
