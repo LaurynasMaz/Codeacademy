@@ -1,0 +1,28 @@
+div > h1{
+  display: flex;
+  justify-content: center;
+  gap: var(--gap_1);
+}
+#gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(243, 243, 250);
+  padding-top: var(--gap_1);
+  margin: 0;
+}
+#gallery .images-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--color-main);
+  gap: var(--gap_1);
+}
+@media (min-width: 576px){
+  #gallery .images-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+  }
+}

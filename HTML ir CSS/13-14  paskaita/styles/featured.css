@@ -1,0 +1,62 @@
+div > h1{
+  display: flex;
+  justify-content: center;
+  gap: var(--gap_1);
+}
+#featured{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap_2);
+}
+#featured .fonai{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+#featured .fonai .data {
+  background: var(--color-main);
+  padding: 0.25rem 0.5rem;
+  position: absolute;
+  top: 1rem;
+}
+.aprasymas{
+    background-color: #fff;
+    display: grid;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(41, 40, 40, 0.103);
+    grid-template: 0.2fr 1fr / 1fr 1fr;
+  }
+  .aprasymas .icon{
+    display: flex;
+    grid-row: 2;
+    grid-column: 1;
+    align-items: center;
+  }
+  .aprasymas .icon svg{
+    width: 1rem;
+    height: 1rem;
+    fill: var(--color-main);
+  }
+  .aprasymas .price{
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: right;
+  }
+  .aprasymas h3{
+    grid-column: 1 / span 2;
+    margin-top : 1em;
+  }
+  
+  #featured .link{
+    text-decoration: none;
+    
+  }
+  @media (min-width: 576px){
+    .korteliuIsdestymas{
+      display: flex;
+      gap: 8rem;
+      flex-wrap: wrap;
+    }
+  }

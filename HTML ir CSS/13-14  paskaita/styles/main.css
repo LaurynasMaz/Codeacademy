@@ -1,13 +1,39 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/*mano css */
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./about.css');
+@import url('./services.css');
+@import url('./featured.css');
+@import url('./gallery.css');
+@import url('./uptades.css');
+@import url('./footer.css');
+
 /*frameworks*/
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('./root.css');
 
 html{
   scroll-behavior: smooth;
 }
-/*mano css */
-@import url('./header.css');
+body{
+  font-family: var(--font-main);
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+header{
+  padding: 2rem;
+}
+#hero{
+  padding: 2rem;
+}
+#aboutUS{
+  padding: 2rem;
+}
+#ourServices{
+  padding: 2rem;
+}
+#featured{
+  padding: 2rem;
+}

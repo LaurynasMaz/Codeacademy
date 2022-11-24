@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-body{
-  font-family: 'Roboto', sans-serif;
-  }
-  .mainMenu {
+  nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,7 +7,7 @@ body{
     gap: 20px;
     padding: 1rem;
   }
-  .mainMenu1 {
+  nav > ul {
     display: none;
    }
 
@@ -25,4 +20,46 @@ body{
     font-weight: bold;
     color: #645cff;
    }
+   .iconsContainer {
+    gap: var(--gap_2);
+   }
+   .bi-facebook{
+    color: #645cff;
+   }
+   .bi-twitter{
+    color: #645cff;
+   }
+   .bi-linkedin{
+    color: #645cff;
+   }
+   @media (min-width: 576px ){
+    header{
+      background-color: white;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav > ul{
+      display: flex;
+      background-color: white;
+      gap: var(--gap_1);
+      list-style-type: none;
+    }
+    nav .link{
+      color: black;
+      font-weight: 600;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+    }
+     .logo h1{
+      font-size: large;
+      font-weight: bold;
+      padding-left: 1rem;
+     }
+     .logo h1 span{
+      font-weight: bold;
+      color: #645cff;
+     }
+  }
    

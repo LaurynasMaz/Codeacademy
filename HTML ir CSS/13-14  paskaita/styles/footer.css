@@ -1,0 +1,33 @@
+footer{ 
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+footer > ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap_1);
+  list-style-type: none;
+}
+footer > ul a{
+  color: white;
+
+}
+footer .iconsContainer{
+  display: flex;
+  gap: var(--gap_1);
+}
+footer .iconsContainer svg{
+  width: 2rem;
+  height: 2rem;
+  fill: var(--color-main);
+}
+footer .link{
+  text-decoration: none;
+}

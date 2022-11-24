@@ -6,28 +6,180 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hiking Tours</title>
   <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 <body>
   <header>
-    <nav class="mainMenu">
+    <nav>
       <div class="logo">
         <h1>Hiking <span>Tours</span></h1>
       </div>
-      <div class="mainMenu1">
-        <ul>
-          <li><a href="#" class="link">Home</a></li>
-          <li><a href="#" class="link">About</a></li>
-          <li><a href="#" class="link">Services</a></li>
-          <li><a href="#" class="link">Featured</a></li>
-          <li><a href="#" class="link">Gallery</a></li>
-        </ul>
-        </div>
-        <div class="mainMenu2">
-          <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a href="https://twitter.com/home" target="_blank"> <i class="bi bi-twitter"></i></a>
-        </div>
+      <ul>
+        <li><a href="#" class="link">Home</a></li>
+        <li><a href="#aboutUS" class="link">About</a></li>
+        <li><a href="#ourServices" class="link">Services</a></li>
+        <li><a href="#featured" class="link">Featured</a></li>
+        <li><a href="#gallery" class="link">Gallery</a></li>
+      </ul>
+      <div class="iconsContainer">
+        <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a href="https://twitter.com/home" target="_blank"> <i class="bi bi-twitter"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"> <i class="bi bi-linkedin"></i></a>
+      </div>
     </nav>
   </header>
+      <main>
+        <section id="hero">
+          <div class="hero-image">
+            <div class="hero-text">
+              <h1>CONTINUE <br>EXPLORING</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ad!</p>
+              <button >Explore Tours</button>
+            </div>
+          </section>
+          <section id="aboutUS">
+            <div>
+              <h1>ABOUT<span> US</span></h1>
+              <div class="about">
+              <img src="./images/photo-1551632811-561732d1e306.avif" alt="1paveiksliukas">
+            <div class="about2">
+              <h3>EXPLORE THE DIFFERENCE</h3>  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nostrum laborum distinctio?</p><br>
+            <p>Lorem ipsum dolor? sit amet consectetur adipisicing elit. Voluptas nostrum laborum distinctio. !</p><br>
+            <a href="#">Read More</a>
+          </div>
+          </div>
+            </div>
+          </section>
+          <section id="ourServices">
+            <div>
+            <h1>OUR <span>SERVICES</span></h1>
+          </div>
+          <div class="isdestymas">
+            <div class="card">
+              <div class="icon-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V192c0-35.3-28.7-64-64-64H80c-8.8 0-16-7.2-16-16s7.2-16 16-16H448c17.7 0 32-14.3 32-32s-14.3-32-32-32H64zM416 336c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg>
+            </div>
+              <h3>SAVING MONEY</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam?</p>
+           </div>
+           <div class="card">
+            <div class="icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M210.6 5.9L62 169.4c-3.9 4.2-6 9.8-6 15.5C56 197.7 66.3 208 79.1 208H104L30.6 281.4c-4.2 4.2-6.6 10-6.6 16C24 309.9 34.1 320 46.6 320H80L5.4 409.5C1.9 413.7 0 419 0 424.5c0 13 10.5 23.5 23.5 23.5H192v32c0 17.7 14.3 32 32 32s32-14.3 32-32V448H424.5c13 0 23.5-10.5 23.5-23.5c0-5.5-1.9-10.8-5.4-15L368 320h33.4c12.5 0 22.6-10.1 22.6-22.6c0-6-2.4-11.8-6.6-16L344 208h24.9c12.7 0 23.1-10.3 23.1-23.1c0-5.7-2.1-11.3-6-15.5L237.4 5.9C234 2.1 229.1 0 224 0s-10 2.1-13.4 5.9z"/></svg>
+          </div>
+            <h3>ENDLESS HIKING</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam?</p>
+         </div>
+         <div class="card">
+          <div class="icon-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M175.2 476.6c-9.7-18-15.2-38.7-15.2-60.6c0-40.3 19-78.2 51.2-102.4l64-48c8.1-6 12.8-15.5 12.8-25.6V96H128V240c0 20.1-9.5 39.1-25.6 51.2l-64 48C14.2 357.3 0 385.8 0 416c0 53 43 96 96 96c20.8 0 41-6.7 57.6-19.2l21.6-16.2zM128 64H288V48c0-14.5 3.9-28.2 10.7-39.9C291 3 281.9 0 272 0H176c-26.5 0-48 21.5-48 48V64zM320 96V240c0 20.1-9.5 39.1-25.6 51.2l-64 48C206.2 357.3 192 385.8 192 416c0 53 43 96 96 96c20.8 0 41-6.7 57.6-19.2l115.2-86.4C493 382.2 512 344.3 512 304V96H320zM512 64V48c0-26.5-21.5-48-48-48H368c-26.5 0-48 21.5-48 48V64H512z"/></svg>
+          </div>
+          <h3>AMAZING CONFORT</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ipsam?</p>
+      </div>
+          </section>
+          <section id="featured">
+            <div>
+              <h1>FEATURED <span>TOURS</span></h1>
+            </div> 
+            <div class="korteliuIsdestymas"> 
+            <div class="korteles">
+              <div class="fonai">
+                <img src="./images/photo-1503641926155-5c17619b79d0.avif" alt="">
+                <p class="data">August 14th, 2022</p>
+              </div>
+              <div class="aprasymas">
+                <h3>Tibet Adventure</h3>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M384 476.1L192 421.2V35.9L384 90.8V476.1zm32-1.2V88.4L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3V394.6c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2V423.6L32.9 474.5C17.1 480.8 0 469.2 0 452.2V117.4c0-9.8 6-18.6 15.1-22.3z"/></svg>
+                  <span><p>China</p></span>
+                </div>
+                <p class="price">6 Days <br>From $2100</p>
+              </div>
+            </div>
+            <div class="korteles">
+              <div class="fonai">
+                <img src="./images/photo-1631743534860-5a5930eea72b.avif" alt="">
+                <p class="data">October 1th, 2022</p>
+              </div>
+              <div class="aprasymas">
+                <h3>Best Of Java</h3>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M384 476.1L192 421.2V35.9L384 90.8V476.1zm32-1.2V88.4L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3V394.6c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2V423.6L32.9 474.5C17.1 480.8 0 469.2 0 452.2V117.4c0-9.8 6-18.6 15.1-22.3z"/></svg>
+                  <span><p>Indonesia</p></span>
+                </div>
+                <p class="price">10 Days <br>From $4100</p>
+              </div>
+            </div>
+            <div class="korteles">
+              <div class="fonai">
+                <img src="./images/photo-1544514060-6648583acaaf.avif" alt="">
+                <p class="data">September 26th, 2022</p>
+              </div>
+              <div class="aprasymas">
+                <h3>Explore Hong Kong</h3>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M384 476.1L192 421.2V35.9L384 90.8V476.1zm32-1.2V88.4L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3V394.6c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2V423.6L32.9 474.5C17.1 480.8 0 469.2 0 452.2V117.4c0-9.8 6-18.6 15.1-22.3z"/></svg>
+                  <span><p>Honk Hong</p></span>
+                </div>
+                <p class="price">12 Days <br>From $3100</p>
+              </div>
+            </div>
+            <div class="korteles">
+              <div class="fonai">
+                <img src="./images/photo-1489392191049-fc10c97e64b6.avif" alt="">
+                <p class="data">December 5th, 2022</p>
+              </div>
+              <div class="aprasymas">
+                <h3>Kenya Highlights</h3>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M384 476.1L192 421.2V35.9L384 90.8V476.1zm32-1.2V88.4L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3V394.6c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2V423.6L32.9 474.5C17.1 480.8 0 469.2 0 452.2V117.4c0-9.8 6-18.6 15.1-22.3z"/></svg>
+                  <span><p>Kenya</p></span>
+                </div>
+                <p class="price">22 Days <br>From $5400</p>
+              </div>
+            </div>
+          </div>  
+        
+            <a href="#">All Tours</a><br>
+          </section>
+          <section id="gallery">
+            <h1>OUR<span>GALLERY</span></h1>
+            <div class="images-container">
+              <img src="./images/photo-1631743534860-5a5930eea72b.avif" alt="">
+              <img src="./images/photo-1603482594758-76e1fee40ff4.avif" alt="">
+              <img src="./images/photo-1493540447904-49763eecf55f.avif" alt="">
+              <img src=".//images/photo-1489392191049-fc10c97e64b6.avif" alt=""> </div>
+
+
+          </section>
+          <section id="uptades">
+            <h3>WANT LATEST TOUR INFO <br> AND UPDATES?</h3>
+            <div class="uptadesisdestymas">
+            <p>Sign Up For Newsletter And Stay Up To Date</p>
+            <div class="buttonIn">
+              <input type="email" id="" placeholder="YOUR EMAIL">
+              <button class="submit">SUMBIT</button>
+            </div>
+          </div>
+          <br>
+         </section>
+         <footer>
+          <ul>
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#aboutUS" class="link">About</a></li>
+            <li><a href="#ourServices" class="link">Services</a></li>
+            <li><a href="#featured" class="link">Featured</a></li>
+            <li><a href="#gallery" class="link">Gallery</a></li>
+          </ul>
+          <div class="iconsContainer">
+            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/home" target="_blank"> <i class="bi bi-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"> <i class="bi bi-linkedin"></i></a>
+          </div>
+          <p>Copyright &copy; Hiking Tours 2022. All Rights Reserved.</p>
+         </footer>
+
+      </main>
 </body>
 </html>
