@@ -1,8 +1,4 @@
-div > h1{
-  display: flex;
-  justify-content: center;
-  gap: var(--gap_1);
-}
+
 #featured{
   display: flex;
   flex-direction: column;
@@ -23,9 +19,9 @@ div > h1{
   top: 1rem;
 }
 .aprasymas{
+    padding: 1em;
     background-color: #fff;
     display: grid;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(41, 40, 40, 0.103);
     grid-template: 0.2fr 1fr / 1fr 1fr;
   }
   .aprasymas .icon{
@@ -55,8 +51,11 @@ div > h1{
   }
   @media (min-width: 576px){
     .korteliuIsdestymas{
-      display: flex;
-      gap: 8rem;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template: 2fr / repeat(3, 1fr);
+      gap: var(--gap_2);
+    }
+    .korteles:hover{
+      box-shadow: 1px 1px 1px 1px rgba(41, 40, 40, 0.103);
     }
   }

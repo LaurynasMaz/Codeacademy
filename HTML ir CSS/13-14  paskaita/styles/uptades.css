@@ -13,7 +13,7 @@
   position: relative;
 }
 input {
-  width: 100%;
+  width: 98%;
   outline: none;
   height: 30px;
 }
@@ -21,7 +21,7 @@ input {
 .buttonIn .submit {
   position: absolute;
   top: 0;
-  right: 0px;
+  right: 0;
   z-index: 2;
   border: none;
   top: 2px;
@@ -37,6 +37,11 @@ input {
   #uptades .uptadesisdestymas{
   display: flex;
   flex-direction: row;
-  align-content: space-between;
-}  
+  justify-content: space-between;
+  width: 100%;
+} 
+.buttonIn .submit:hover{
+  color: white;
+  background-color: var(--color-main);
+}
 }

@@ -42,4 +42,7 @@ button{
       border-radius: 2px;
       box-shadow: 1px 1px 3px rgb(41, 40, 40);
     }
+    button:hover{
+      background-color: var(--color-main_3);
+    }
 } 

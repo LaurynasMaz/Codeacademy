@@ -1,15 +1,12 @@
-div > h1{
-  display: flex;
-  justify-content: center;
-  gap: var(--gap_1);
-}
+
 #gallery {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(243, 243, 250);
+  background-color: var(--color-main_2);
   padding-top: var(--gap_1);
   margin: 0;
+
 }
 #gallery .images-container{
   display: flex;
@@ -20,9 +17,31 @@ div > h1{
 }
 @media (min-width: 576px){
   #gallery .images-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr);
     gap: 0;
+  }
+  #gallery .images-container img{
+    height: 100%;
+
+  }
+  .image-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-wrapper svg{  
+    position: absolute;
+    width: 3rem;
+    display: none;
+  }
+
+  .image-wrapper:hover{
+    opacity:0.6;
+    background-color:#000000;
+  }
+  #gallery .images-container .image-wrapper:hover > svg{
+    display: unset;
   }
 }

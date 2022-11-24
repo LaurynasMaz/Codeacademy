@@ -1,5 +1,5 @@
 #ourServices{
-  background-color: aliceblue;
+  background-color: var(--color-main_2);
   display: flex;
    gap: var(--gap2);
    flex-direction: column;

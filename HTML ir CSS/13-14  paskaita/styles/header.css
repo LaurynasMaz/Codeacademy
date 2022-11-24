@@ -24,13 +24,13 @@
     gap: var(--gap_2);
    }
    .bi-facebook{
-    color: #645cff;
+    color: var(--color-main);
    }
    .bi-twitter{
-    color: #645cff;
+    color: var(--color-main);
    }
    .bi-linkedin{
-    color: #645cff;
+    color: var(--color-main);
    }
    @media (min-width: 576px ){
     header{
@@ -60,6 +60,18 @@
      .logo h1 span{
       font-weight: bold;
       color: #645cff;
+     }
+     a:hover{
+      color: var(--color-main);
+     }
+     .bi-facebook:hover{
+      color: var(--color-main_2);
+     }
+     .bi-twitter:hover{
+      color: var(--color-main_2);
+     }
+     .bi-linkedin:hover{
+      color: var(--color-main_2);
      }
   }
    

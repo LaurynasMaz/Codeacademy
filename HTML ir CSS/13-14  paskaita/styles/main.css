@@ -16,11 +16,17 @@ html{
 }
 body{
   font-family: var(--font-main);
+  margin: 0;
 }
 img {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+div > h1{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
 header{
   padding: 2rem;
