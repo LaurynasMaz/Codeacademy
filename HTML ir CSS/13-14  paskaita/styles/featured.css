@@ -5,42 +5,42 @@
   align-items: center;
   gap: var(--gap_2);
 }
-#featured .fonai{
+#featured .imgbackraund1{
   display: flex;
   justify-content: flex-start;
   position: relative;
   width: 300px;
   height: 200px;
 }
-#featured .fonai .data {
+#featured .imgbackraund1 .date {
   background: var(--color-main);
   padding: 0.25rem 0.5rem;
   position: absolute;
   top: 1rem;
 }
-.aprasymas{
+.text1{
     padding: 1em;
     background-color: #fff;
     display: grid;
     grid-template: 0.2fr 1fr / 1fr 1fr;
   }
-  .aprasymas .icon{
+  .text1 .icon{
     display: flex;
     grid-row: 2;
     grid-column: 1;
     align-items: center;
   }
-  .aprasymas .icon svg{
+  .text1 .icon svg{
     width: 1rem;
     height: 1rem;
     fill: var(--color-main);
   }
-  .aprasymas .price{
+  .text1 .price{
     grid-column: 2;
     grid-row: 2;
     justify-self: right;
   }
-  .aprasymas h3{
+  .text1 h3{
     grid-column: 1 / span 2;
     margin-top : 1em;
   }
@@ -50,12 +50,12 @@
     
   }
   @media (min-width: 576px){
-    .korteliuIsdestymas{
+    .cardsalign{
       display: grid;
       grid-template: 2fr / repeat(3, 1fr);
       gap: var(--gap_2);
     }
-    .korteles:hover{
+    .cards:hover{
       box-shadow: 1px 1px 1px 1px rgba(41, 40, 40, 0.103);
     }
   }

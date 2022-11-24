@@ -26,23 +26,23 @@
 #ourServices .card p{
   width: 60%;
 }
-.isdestymas{
+.align{
   display: grid;
   grid-template-columns: repeat(2, 15rem);
   grid-template-rows: repeat(2, 15rem);
   padding: var(--padding_2);
 }
-.isdestymas :nth-child(1){
+.align :nth-child(1){
    grid-area: 1 / 1 / 2 / 2; 
 }
-.isdestymas :nth-child(2){
+.align :nth-child(2){
   grid-area: 1 / 2 / 2 / 3; 
 }
-.isdestymas :nth-child(3){
+.align :nth-child(3){
   grid-area: 2 / 1 / 3 / 2; 
 }
 @media (min-width: 576px){
-  .isdestymas{
+  .align{
     display: flex;
     justify-content: center;
   }

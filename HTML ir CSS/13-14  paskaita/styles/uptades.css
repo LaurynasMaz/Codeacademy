@@ -34,7 +34,7 @@ input {
     align-items: flex-start;
     padding: 1rem;
   }
-  #uptades .uptadesisdestymas{
+  #uptades .uptadeAlign{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
