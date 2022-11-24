@@ -15,6 +15,11 @@
   background-color: var(--color-main);
   gap: var(--gap_1);
 }
+.image-wrapper svg{  
+  position: absolute;
+  width: 3rem;
+  display: none;
+}
 @media (min-width: 576px){
   #gallery .images-container{
     display: grid;
@@ -38,7 +43,7 @@
   }
 
   .image-wrapper:hover{
-    opacity:0.6;
+    opacity:0.8;
     background-color:#000000;
   }
   #gallery .images-container .image-wrapper:hover > svg{
