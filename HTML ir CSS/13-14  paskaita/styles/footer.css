@@ -31,5 +31,12 @@ footer .iconsContainer svg{
 footer .link{
   text-decoration: none;
 }
-
+@media(min-width: 576px){
+  footer{
+    padding-top: 3rem;
+  }
+  footer > ul{
+    display: none;
+  }
+}
 
