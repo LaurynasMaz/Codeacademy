@@ -10,8 +10,10 @@ span{
   list-style-type: none;
   gap: 20px;
 }
-.about .link{
+.about a{
   text-decoration: none;
+  list-style-type: none;
+  
 }
 @media (min-width: 576px){
 .about{
