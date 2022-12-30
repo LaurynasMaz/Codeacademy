@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>34 paskaita</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script src="./scripts/main.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Movie List</h1>
+   </nav>
+  </header>
+  <main>
+    <section id="form">
+      <div>
+        <h2>Add movie:</h2>
+      </div>
+      <form>
+        <label for="movieName">Movie name:</label>
+        <input type="text" id="title" name="title" placeholder="Movie Title">
+        <label for="image">Image</label>
+        <input
+          type="url"
+          id="image"
+          name="image"
+          placeholder="Movie Poster url..."
+        >
+        <label for="Director">Director:</label>
+        <input type="text" id="director" name="director" placeholder="Movie Director">
+        <label for="MovieRealeseDate">Realese Date:</label>
+        <input type="number" id="release" name="release" placeholder="Movie relase Date">
+        <label for="Movie Lenght">Length in minutes:</label>
+        <input type="number" id="movieLength" name="movieLength" placeholder="Movie Length">
+        <button type="submit" class="addMovie">Add Movie</button>
+      </form>
+      </div>
+    </section>
+    <section id="movieCards">
+    </section>
+    </div>
+</body>
+</html>

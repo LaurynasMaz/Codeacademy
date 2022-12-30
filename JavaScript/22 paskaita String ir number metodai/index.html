@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>22 Paskaita Metodai</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="./scripts/main.js" defer></script>
+</head>
+<body>
+  <form action="">
+    <input 
+      type="tel" 
+      pattern="^\(\+[0-9]{3}\)\s[0-9]{3}\s[0-9]{5}$" 
+      name="" 
+      id=""
+      pattern="(+xxx) xxx xxxxx  - vietoj x rašykite skaičius"
+    >
+    <input type="submit" value="telBandymas">
+  </form>
+  <section id="degaline">
+    <form>
+      <input type="number" placeholder="Kaina" name="skaicius1" class="kaina" step="0.001">
+      <input type="number" placeholder="Degalu kiekis" name="skaicius2" class="degaluKiekis" step="0.1">
+      <input type="submit" value="Skaičiuoti">
+    </form>
+   <h1 class="output"></h1>
+  </section>
+  <section id="task2" >
+    <form>
+    <input type="name" placeholder="vardas" name="vardas" class="vardas" >
+      <input type="number" placeholder="skaicius" name="skaicius" class="skaicius" step="0.1">
+      <input type="submit" value="Pateikti">
+  </form>
+  </section>
+  <section id="task3" >
+      <form class="forma" action="">
+        <input class="VardasPavarde" type="text" placeholder="Vardas Pavarde">
+        <input type="submit" value="Submit">
+  </section>
+</body>
+</html>

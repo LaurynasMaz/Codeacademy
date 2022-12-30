@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --main-color: #f80909;
+  --second-color: #0e31f8;
+}
+body{
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  background-color: var(--second-color);
+}

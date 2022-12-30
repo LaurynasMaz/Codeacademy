@@ -1,0 +1,93 @@
+body{
+  background-color: var(--background-color);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: white;
+  height: 6rem;
+}
+
+.h1{
+  color: var(--primary-color);
+}
+
+nav .iconContainer svg{
+  width: 1rem;
+  height: 1rem;
+  fill: #1f6feb;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  padding: 5rem 5rem 3rem 5rem;
+}
+.divForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  background-color: white;
+  padding: 1rem;
+  width: 30rem;
+  height: 8rem;
+  gap: 2rem;
+}
+
+.divForm form{
+  width: 80%;
+  height: 1rem;
+}
+
+.divForm form{
+  display: flex;
+  height: 1.5rem;
+}
+.divForm form .input{
+  background-color: var(--background-color);
+  border: 1px solid black;
+  border-radius: 3px 0 0 3px;
+  flex: 3;
+}
+.divForm form .submit{
+  background-color: var(--primary-color);
+  color: white;
+  border-radius:0 3px 3px 0;
+  flex: 1;
+}
+#output{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  background-color: var(--background-color);
+  gap: 10px;
+}
+.tasks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: white;
+  width: 30rem;
+  height: 4rem;
+  user-select: none;
+}
+.tasks .text{
+  border: none;
+  background-color: transparent;
+  width: 70%;
+}
+.tasks .icons svg{
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+.tasks .icons .svg1{
+  fill: green;
+}
+.tasks .icons .svg2{
+  fill: red;
+}

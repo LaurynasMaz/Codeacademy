@@ -1,0 +1,104 @@
+#bandymas1{
+  background-color: rgb(240, 185, 185);
+}
+#bandymas2{
+  background-color: rgb(119, 124, 182);
+}
+#bandymas3{
+  background-color: rgb(183, 194, 86);
+}
+#bandymas4{
+  background-color: rgb(22, 107, 72);
+}
+.nonDisplay{
+  display: none;
+}
+
+.task1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.task1p{
+  color: red;
+}
+.task1img{
+  height: 30rem;
+  width: auto;
+}
+.task2img{
+  height: 15rem;
+  width: auto;
+}
+
+.task2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.task2images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task3{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.task3images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.task3images div:nth-of-type(1){
+  background-color: rgb(153, 143, 241);
+}
+.task3images div:nth-of-type(2){
+  background-color: rgb(192, 151, 255);
+}
+.task3images div:nth-of-type(3){
+  background-color: rgb(232, 255, 151);
+}
+.task3images div:nth-of-type(4){
+  background-color: rgb(151, 255, 194);
+}
+.task3images div:nth-of-type(5){
+  background-color: rgb(151, 255, 255);
+}
+.task3images div:nth-of-type(6){
+  background-color: rgb(255, 151, 156);
+}
+.task3images div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  padding: 50px;
+  border: 2px solid black;
+}
+.task3images div :nth-child(1){
+  grid-area: 1 / 1 / 2 / 3;
+}
+.task3images div :nth-child(2){
+  grid-area: 2 / 1 / 5 / 3;
+  justify-content: center;
+}
+.task3images div :nth-child(3){
+  grid-area: 2 / 3 / 5 / 5;
+}
+
+.task3img{
+  height: 20rem;
+  width: auto; 
+}
+.task3images h2{
+color: blue;
+}

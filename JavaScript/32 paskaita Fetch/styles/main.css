@@ -1,0 +1,28 @@
+.movie {
+width: 800px;
+height: 400px;
+}
+.movie img{
+  width: 200px;
+  height: 200px;
+}
+#zmones{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  border: 2px solid black;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card  img{
+  border-radius: 50%;
+  object-fit: cover;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

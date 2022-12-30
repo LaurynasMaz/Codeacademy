@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background-color: #000000;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: black;
+  height: 6rem;
+}
+ nav h1{
+  color: yellow;
+}
+#form{
+  padding: 10px;
+  background-color: #000000;
+  color: #fbff00;
+}
+#form label{
+font-size: large;
+}
+form input{
+  background-color: #fbff00;
+  border-radius: 100px;
+  box-shadow: rgba(144, 187, 44, 0.2) 0 -25px 18px -14px inset,rgba(165, 187, 44, 0.15) 0 1px 2px,rgba(177, 187, 44, 0.15) 0 2px 4px,rgba(185, 187, 44, 0.15) 0 4px 8px,rgba(165, 187, 44, 0.15) 0 8px 16px,rgba(161, 187, 44, 0.15) 0 16px 32px;
+  color: black;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  font-size: 16px;
+}
+.addMovie {
+  background-color: #fbff00;
+  border-radius: 100px;
+  box-shadow: rgba(144, 187, 44, 0.2) 0 -25px 18px -14px inset,rgba(165, 187, 44, 0.15) 0 1px 2px,rgba(177, 187, 44, 0.15) 0 2px 4px,rgba(185, 187, 44, 0.15) 0 4px 8px,rgba(165, 187, 44, 0.15) 0 8px 16px,rgba(161, 187, 44, 0.15) 0 16px 32px;
+  color: black;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  font-size: 16px;
+}
+#getMovies{
+  padding: 10px;
+}
+#getMovies{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#movieCards{
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.cardMovie{
+  width: 300px;
+  height: 400px;
+  border: 3px solid black;
+  background-color: yellow;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+.cardMovie img{
+  width: auto;
+  height: 10rem;
+  object-fit: fill;
+}
+.cardMovie h1{
+  text-align: center;
+}
+.cardMovie > div{
+  width: 100%;
+  height: 100%;
+}
+.cardMovie > div > img{
+  height: 70%;
+  width: 40%;
+  margin-left: 30%;
+}
+.cardMovie p {
+  color: black;
+  padding: 5px;
+}
+.cardMovie .directorContainer{
+  display: flex;
+  gap: 0.2rem;
+  height: fit-content;
+  align-items: center;
+}
+.cardMovie .lengthContainer{
+  display: flex;
+  gap: 0.2rem;
+  height: fit-content;
+  align-items: center;
+}
+
+.cardMovie .releaseContainer{
+  display: flex;
+  gap: 0.2rem;
+  height: fit-content;
+  align-items: center;
+}
+.cardMovie .buttonContainer{
+  display: flex;
+  gap: 0.2rem;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+.editButton {
+  background-color: #000000;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -25px 18px -14px inset,rgba(3, 3, 1, 0.15) 0 1px 2px,rgba(0, 0, 0, 0.15) 0 2px 4px,rgba(185, 187, 44, 0.15) 0 4px 8px,rgba(5, 5, 1, 0.15) 0 8px 16px,rgba(0, 0, 0, 0.15) 0 16px 32px;
+  color: yellow;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  font-size: 16px;
+}
+.deleteButton {
+  background-color: #000000;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -25px 18px -14px inset,rgba(3, 3, 1, 0.15) 0 1px 2px,rgba(0, 0, 0, 0.15) 0 2px 4px,rgba(185, 187, 44, 0.15) 0 4px 8px,rgba(5, 5, 1, 0.15) 0 8px 16px,rgba(0, 0, 0, 0.15) 0 16px 32px;
+  color: yellow;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  font-size: 16px;
+}

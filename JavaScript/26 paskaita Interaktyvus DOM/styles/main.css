@@ -1,0 +1,110 @@
+body{
+  background-color: rgb(48, 46, 46);
+}
+#forma > form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.patiekaloSelektas > select{
+  background-color: #FF4742;
+  text-align: center;
+  color: #FFFFFF;
+  width: 250px;
+  height: 30px;
+  border-radius: 6px;
+  
+}
+.patiekaloSelektas > input{
+  background-color: #FF4742;
+  color: #FFFFFF;
+  text-align: center;
+  width: 250px;
+  height: 25px;
+  border-radius: 6px;
+  appearance: none;
+}
+.patiekaloSelektas > option{
+  background-color: #FF4742;
+  text-align: center;
+}
+.addMoreSelect > button {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 16px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+}
+.submitDiv > input {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+  
+}
+.trintiPasirinkima{
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 16px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  user-select: none;
+  vertical-align: middle;
+}
+#saskaita > div{
+  background-color: white;
+  width: 500px;
+  margin: 0 auto;
+  border: 5px solid black;
+  padding: 10px;
+}
+.date{
+  text-align: right;
+}
+
+#saskaita > div > h4{
+  text-align: right;
+}
+
+#saskaita > div > h1{
+  text-align: center;
+}
+
+#saskaita > div > hr{
+border: 1px dashed black;
+}
+
+#saskaita div > ul > li > div{
+ display: flex;
+ justify-content: space-between;
+}
+
+.bendraKaina{
+  text-align: center;
+}
+#saskaita > div > h2{
+  text-align: center
+ }

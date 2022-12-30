@@ -1,0 +1,9 @@
+
+.tekstas{
+  background-color: antiquewhite;
+  font-size: larger;
+  border: 5px dashed orange;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}

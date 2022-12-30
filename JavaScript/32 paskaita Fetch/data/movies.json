@@ -1,0 +1,22 @@
+{
+  "movies":[
+    {
+      "name": "The Shawshank Redemption",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "lenght": "142 min",
+      "actors": ["Tim Robbins","Morgan Freeman"]
+    },
+    {
+      "name": "The Godfather",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "lenght": "175 min",
+      "actors": ["Marlon Brando","Al Pacino","James Caan"]
+    },
+    {
+      "name": "The Dark Knight",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+      "lenght": "152 min",
+      "actors": ["Christian Bale","Heath Ledger"]
+    }
+  ]
+}

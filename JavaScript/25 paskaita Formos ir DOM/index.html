@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>25 paskaita</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="./scripts/main.js" defer></script>
+</head>
+<body>
+  <main>
+    <section id="card">
+      <form>
+        <div>
+          <label for="photo">Nuotrauka</label>
+            <input
+              type="url"
+              name="photo" 
+              id="photo"
+              required
+            >
+        </div>
+        <div>
+          <label for="title">Pavadinimas</label>
+          <input type="text" name="title" id="title" required>
+        </div>
+        <div class="desciption">
+          <label for="desciption">Aprašymas</label>
+          <textarea name="desciption" id="desciption" required></textarea>
+        </div>
+        <div>
+          <label for="date">Data</label>
+          <input type="date" name="date" id="date">
+        </div>
+        <div>
+          <label for="location">Lokacija</label>
+          <input type="text" name="location" id="location">
+        </div>
+        <input type="submit" value="Generuoti">
+      </form>
+    </section>
+    <section id="generatedCards">
+      <!-- <div class="card">
+        <div>
+          <img src="./images/sand-beach-as-background_102618-461.jpg" alt="cardImages">
+          <p>2020-20-20</p>
+          <p>Lietuva , Alytus, Gatvė</p> 
+        </div>
+        <div>
+        <h1>Pavadinimas</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quos praesentium ipsa beatae dolore possimus, voluptatem similique facere, sapiente nesciunt totam porro error eligendi laudantium maxime quisquam incidunt reprehenderit perferendis.</p> 
+      </div>
+      </div>-->
+    </section>
+    <section id="formToTable">
+      <form>
+          <label for="eilutes">Eilutės</label>
+          <input type="number" name="eilutes" id="eiltues" required>
+          <label for="stulpeliai">Stulpeliai</label>
+          <input type="number" name="stulpeliai" id="stulpeliai" required>
+          <input type="submit" value="Generuoti">
+      </form>
+    </section>
+    <section id="table">
+    </section>
+    <button onclick="sleptiRodyti()">Generuoti</button>
+    <div id="sleptiRodyti">
+    <section id="movieCards">
+    </section> 
+  </div>
+  </main>
+</body>
+</html>
